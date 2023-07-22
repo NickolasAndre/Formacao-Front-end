@@ -3,3 +3,9 @@
 .rgba{
     color: rgba(0, 0, 255, 0.623);
 }
+
+/*HSL*/
+
+.hls{
+    color: hsl(10, 60%, 70%);
+}
