@@ -20,3 +20,25 @@
     background-color: black;
     color: aquamarine;
 }
+
+/* BG image */
+
+.bg-image{
+    background-image: url(img/nature.jpg);
+    padding: 10px;
+    color: white;
+}
+
+/* Centralizando bg image*/
+
+.not-centered-bg,
+.centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url(img/bridge.jpg);
+}
+
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
