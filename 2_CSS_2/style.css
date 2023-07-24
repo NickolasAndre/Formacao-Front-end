@@ -1,0 +1,22 @@
+/*rbga*/
+
+.rgba{
+    color: rgba(0, 0, 255, 0.623);
+}
+
+/*HSL*/
+
+.hls{
+    color: hsl(10, 60%, 70%);
+}
+
+/*background-color*/
+
+.bg{
+    background-color: rgb(25, 126, 126);
+}
+
+.bg-2{
+    background-color: black;
+    color: aquamarine;
+}
