@@ -42,3 +42,15 @@
     background-position: center;
     background-size: cover;
 }
+
+/* Padding */
+
+.without-padding, .padding{
+    background-color: #111;
+    color: #fff;
+}
+
+.padding{
+    background-color: #333;
+    padding: 20px;
+}
