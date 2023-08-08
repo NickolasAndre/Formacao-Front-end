@@ -71,3 +71,14 @@
     padding: 50px;
     box-sizing: border-box;
 }
+
+/* border */
+
+.border{
+    background-color: #777;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 8px  solid  black;
+}
