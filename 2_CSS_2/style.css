@@ -72,7 +72,7 @@
     box-sizing: border-box;
 }
 
-/* border */
+/* Border */
 
 .border{
     background-color: #777;
@@ -81,4 +81,18 @@
     padding: 50px;
     box-sizing: border-box;
     border: 8px  solid  black;
+}
+
+/* Borda  individual*/
+
+.border-left{
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+
+.border-bottom{
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
 }
