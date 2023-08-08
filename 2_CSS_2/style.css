@@ -96,3 +96,21 @@
     background-color: #222;
     padding: 20px;
 }
+
+/* Borda arredondada */
+
+.rounded-p{
+border: 4px solid blue;
+background-color: #000;
+color: blue;
+padding: 15px;
+border-radius: 15px;
+}
+
+.rounded-p-2{
+    
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+    }
