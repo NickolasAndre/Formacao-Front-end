@@ -114,3 +114,21 @@ border-radius: 15px;
     padding: 15px;
     border-radius: 25px;
     }
+
+/* margem */
+
+.margin{
+margin: 10px;
+background-color: #222;
+}
+
+.margin-top{
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.margin-shorthand{
+    background-color: #666;
+    margin: 5px 10px 15px 20px;
+}
