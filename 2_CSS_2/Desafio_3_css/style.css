@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#desafio{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(175, 73, 73);
+    color: rgb(104, 10, 255);
+    border: 20px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 30px;
+}
+
+.classe{
+    outline: 5px solid blue;
+}
