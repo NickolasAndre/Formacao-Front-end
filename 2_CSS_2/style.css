@@ -167,3 +167,13 @@ background-color: #222;
 .remove-underline{
     text-decoration: none;
 }
+
+/* text transform */
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
