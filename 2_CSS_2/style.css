@@ -153,3 +153,17 @@ background-color: #222;
 .container-center{
     text-align: center;
 }
+
+/* Text decoration */
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-trough{
+    text-decoration: line-through;
+}
+
+.remove-underline{
+    text-decoration: none;
+}
