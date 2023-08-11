@@ -177,3 +177,7 @@ background-color: #222;
 .lower{
     text-transform: lowercase;
 }
+
+.spacing{
+    letter-spacing: 5px;
+}
