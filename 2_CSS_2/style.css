@@ -144,3 +144,12 @@ background-color: #222;
     height: 100px;
 }
 
+/* Text aligned */
+
+.text-aligned{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+}
