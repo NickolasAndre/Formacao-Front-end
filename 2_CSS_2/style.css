@@ -181,3 +181,25 @@ background-color: #222;
 .spacing{
     letter-spacing: 5px;
 }
+
+/* fontes */
+
+.serif{
+    font-family: Georgia, serif;
+}
+
+.sans-serif{
+    font-family: Helvetica, sans-serif;
+}
+
+.monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
