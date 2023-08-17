@@ -231,3 +231,13 @@ background-color: #222;
 .bolder{
     font-weight: 900;
 }
+
+/* font size */
+
+.small{
+    font-size: 16px;
+}
+
+.big{
+    font-size: 40px;
+}
