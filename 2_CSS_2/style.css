@@ -213,3 +213,21 @@ background-color: #222;
 .oblique{
     font-style: oblique;
 }
+
+/* font weight */
+
+.thin, .bold, .bolder{
+    font-family: helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
