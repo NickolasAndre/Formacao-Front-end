@@ -203,3 +203,13 @@ background-color: #222;
 .fantasy{
     font-family: fantasy;
 }
+
+/* Text style */
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
