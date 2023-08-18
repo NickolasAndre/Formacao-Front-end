@@ -257,3 +257,7 @@ background-color: #222;
     display: block;
     margin: 10px;
 }
+
+.invisible{
+    display: none;
+}
