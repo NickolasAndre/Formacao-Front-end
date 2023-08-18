@@ -241,3 +241,19 @@ background-color: #222;
 .big{
     font-size: 40px;
 }
+
+/* display */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    display: inline-block;
+    margin: 10px;
+}
+
+.block{
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
