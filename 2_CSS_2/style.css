@@ -273,3 +273,15 @@ background-color: #222;
     top: 100px;
     left: 40px;
 }
+
+/* absolute */
+
+.absolute{
+    position: absolute;
+    background-color: #964;
+    color: white;
+    width: 100px;
+    height: 100px;
+   top: 2px;
+   right: 2px;
+}
