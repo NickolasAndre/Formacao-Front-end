@@ -312,3 +312,15 @@ background-color: #222;
     bottom: 10px;
     right: 10px;
 }
+
+/* Fixed */
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #841;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
