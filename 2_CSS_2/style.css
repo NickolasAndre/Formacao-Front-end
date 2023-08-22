@@ -324,3 +324,15 @@ background-color: #222;
     top: 50px;
     right: 100px;
 }
+
+/* sticky */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    top: 50px;
+    right: 100px;
+}
