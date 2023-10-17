@@ -13,7 +13,7 @@
         </div>
         <div class="form-container">
             <div class="form-header">
-                <p>Formilário</p>
+                <p>Formulário</p>
             </div>
             <form>
                 <div class="form-body">
@@ -23,7 +23,34 @@
                          <label for="title">Título do anúncio <span class="required-field">*</span></label>
                         <input type="text" name="title" id="title" class="block" placeholder="Um título para anunciar seu carro" minlength="1" maxlength="30" required>
                     </div>
-                    <input type="submit">
+                    <div class="box-input">
+                        <label for="price">Preço <span class="required-field">*</span></label>
+                       <input type="number" name="price" id="price" class="block" placeholder="Defina o preço" required>
+                   </div>
+                   <div class="box-input">
+                        <label for="description">Descrição <span class="required-field">*</span></label>
+                       <textarea name="description" id="description" class="block" placeholder="Aqui você coloca os detalhes do veículo"></textarea>
+                   </div>
+                   <div class="box-input">
+                        <label for="brand">Marca <span class="required-field">*</span></label>
+                        <input type="text" name="brand" id="brand" class="block" placeholder="Digite a marca do veículo" required>
+                    </div> 
+                    <div class="box-input">
+                        <label for="model">Modelo <span class="required-field">*</span></label>
+                        <input type="text" name="model" id="model" class="block" placeholder="Digite o modelo do veículo" required>
+                    </div> 
+                    <div class="box-input">
+                        <label for="mileage">Kilometragem <span class="required-field">*</span></label>
+                        <input type="number" name="mileage" id="mileage" class="block" placeholder="Digite a Kilometragem do veículo" required>
+                    </div> 
+                    <div class="box-input">
+                        <label for="purchase_date">Data de compra <span class="required-field">*</span></label>
+                        <input type="date" name="purchase_date" id="purchase_date" class="block" required>
+                    </div>
+
+
+
+                   <input type="submit" value="Enviar">
                 </div>
             </form>
         </div>
