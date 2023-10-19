@@ -23,3 +23,15 @@ p{
         background-color: #789;
     }
 }
+
+/* 4 - landscape */
+
+h3{
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h3{
+        display: block;
+    }
+}
