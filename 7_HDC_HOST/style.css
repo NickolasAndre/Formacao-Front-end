@@ -262,3 +262,58 @@ nav{
     opacity: 1;
 }
 
+/* contact form */
+
+
+.contact-container{
+    text-align: center;
+    padding: 5em 0 2rem 0;
+}
+
+.contact-container h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: #000;
+}
+
+footer p{
+    color: #ccc;
+    
+}
