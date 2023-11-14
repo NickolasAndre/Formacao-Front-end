@@ -18,4 +18,19 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* 3 - wrap */
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid black;
 }
