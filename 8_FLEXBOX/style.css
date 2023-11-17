@@ -136,3 +136,17 @@ body{
 #three{
     order: 3;
 }
+
+/* grow */
+
+.grow{
+    display: flex;
+}
+
+.grow .box{
+    flex: 1;
+}
+
+.grow .big{
+    flex-grow: 3;
+}
