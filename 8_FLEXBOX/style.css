@@ -104,3 +104,17 @@ body{
 .stretch .box{
     height: auto;
 }
+
+/* gap */
+
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 10px;
+}
+
+.gap .box{
+    width: 32%;
+}
