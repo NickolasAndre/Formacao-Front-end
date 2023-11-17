@@ -150,3 +150,17 @@ body{
 .grow .big{
     flex-grow: 3;
 }
+
+/* basis */
+
+.basis{
+    display: flex;
+}
+
+.basis .box{
+    flex-basis: 20px;
+}
+
+.basis .big{
+    flex-grow: 1;
+}
