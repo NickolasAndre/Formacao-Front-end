@@ -181,3 +181,18 @@ body{
 .shrink .small{
     flex-shrink: 2;
 }
+
+/* shorthand */
+
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .different{
+    flex: 3 1 400px;
+}
