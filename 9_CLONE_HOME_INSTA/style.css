@@ -40,3 +40,68 @@ body{
 #form-container{
     text-align: center;
 }
+
+/* LOGIN FORM */
+
+#form-box{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logo-insta{
+    width: 175px;
+    height: 51px;
+    margin-top: 30px auto 12px;
+}
+
+#login-form{
+    margin-top: 20px;
+}
+
+#login-form input{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#login-form input[type="submit"]{
+    background-color: #b2dffc;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SEPARADOR */
+
+.separator{
+    position: relative;
+}
+
+.line{
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separator span{
+    position: absolute;
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #fff;
+    top: -6px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 14px;
+}
