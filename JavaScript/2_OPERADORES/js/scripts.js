@@ -31,3 +31,8 @@ console.log('testo2');
 
 console.log("Testando a \n quebra de linha");
 console.log('Espaçamento \t de tab');
+
+// 6 - Concatenação
+
+console.log('Meu ' + "texto " + `combinado`);
+console.log('Hello ' + `world`);
