@@ -68,5 +68,20 @@ console.log(9 ==='9');
 console.log(9 != "9");
 console.log(9 !== `9`);
 
-// 11 - Operadores lógicos
+/*
 
+11 - Operadores lógicos
+
+&& - and
+|| - or
+! -  not
+*/
+console.log("2222222222")
+console.log(true && true);
+console.log(true && false);
+console.log(5 > 2 && 2 < 10);
+console.log( 5 > 3 && "nick" === 1);
+console.log( 5 > 3 || "nick" === 1);
+console.log(5 < 2 || 5 > 100);
+console.log(!true);
+console.log(!5 > 2 );
