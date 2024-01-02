@@ -36,3 +36,9 @@ console.log('Espaçamento \t de tab');
 
 console.log('Meu ' + "texto " + `combinado`);
 console.log('Hello ' + `world`);
+
+// 7 - Interpolação(Templete Strings)
+
+console.log(`A soma de 2 + 2 é: ${2+2}`);
+
+console.log(`Podemos executar qualquer coisa aqui ${console.log("teste")}`);
