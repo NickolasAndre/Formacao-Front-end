@@ -76,7 +76,7 @@ console.log(9 !== `9`);
 || - or
 ! -  not
 */
-console.log("2222222222")
+
 console.log(true && true);
 console.log(true && false);
 console.log(5 > 2 && 2 < 10);
@@ -85,3 +85,10 @@ console.log( 5 > 3 || "nick" === 1);
 console.log(5 < 2 || 5 > 100);
 console.log(!true);
 console.log(!5 > 2 );
+
+// 12 - Empty Values
+
+console.log(typeof null, typeof undefined)
+
+console.log(null === undefined);
+console.log(null == undefined);
