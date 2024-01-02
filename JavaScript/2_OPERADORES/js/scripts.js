@@ -25,3 +25,9 @@ console.log("teste");
 console.log(typeof "teste");
 console.log(`testo`);
 console.log('testo2');
+
+
+// 5 - Símbolos especiais em String
+
+console.log("Testando a \n quebra de linha");
+console.log('Espaçamento \t de tab');
