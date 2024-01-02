@@ -92,3 +92,10 @@ console.log(typeof null, typeof undefined)
 
 console.log(null === undefined);
 console.log(null == undefined);
+
+// 13 - mudança de tipos
+
+console.log(5 * null);
+console.log('Teste' * 'Opa');
+console.log('10' + 1);
+console.log("10" - 1);
