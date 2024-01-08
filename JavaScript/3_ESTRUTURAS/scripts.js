@@ -21,3 +21,18 @@ console.log(typeof idade);
 let a = 10, b = 20, c = 30;
 
 console.log(a, b, c);
+
+// 3 - função prompt
+
+//const age = prompt("Digite a sua idade:");
+
+//console.log(`você tem ${age} anos.`);
+
+
+// 4 - alert
+
+alert("testando");
+
+const z = 10;
+
+alert(`O número é ${z}`);
