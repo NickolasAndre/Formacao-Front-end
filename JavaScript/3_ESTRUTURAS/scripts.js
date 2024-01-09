@@ -31,8 +31,16 @@ console.log(a, b, c);
 
 // 4 - alert
 
-alert("testando");
+//alert("testando");
 
-const z = 10;
+//const z = 10;
 
-alert(`O número é ${z}`);
+//alert(`O número é ${z}`);
+
+// 5 - math
+
+console.log(Math.max(4,1,5,10));
+
+console.log(Math.floor(6.12));
+
+console.log(Math.ceil(6.53));
