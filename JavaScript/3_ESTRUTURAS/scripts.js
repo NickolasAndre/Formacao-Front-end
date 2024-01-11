@@ -39,6 +39,7 @@ console.log(a, b, c);
 
 // 5 - math
 
+/*
 console.log(Math.max(4,1,5,10));
 
 console.log(Math.floor(6.12));
@@ -52,3 +53,30 @@ console.log("teste!");
 console.error("erro!");
 
 console.warn("aviso!");
+*/
+
+// 7 - if
+
+const m = 10
+
+if(m > 5){
+
+    console.log("M é maior que 5!");
+
+}
+
+const user = "João"
+
+if(user === "João"){
+    
+    console.log("Esse é o João!");
+
+}
+
+if(user === "Maria"){
+
+    console.log("Essa é Maria")
+
+}
+
+console.log(user === "João", user === "Maria");
