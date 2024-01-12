@@ -102,3 +102,24 @@ if(q > 5 && w > 20){
 } else {
     console.log("Os números não são mais altos");
 }
+
+// 9 - else if
+
+if(1 > 2){
+    console.log("Teste");
+}else if(2 > 3){
+    console.log("Teste");
+}else if(5 > 3){
+    console.log("Sim");
+}
+
+const userName = "Nick";
+const userAge = 24;
+
+if(userName === "José"){
+    console.log("Bem vindo José");
+}else if(userName === "Nick" && userAge === 24){
+    console.log("certo!");
+}else {
+    console.log("Nenhuma condição foi aceita!");
+}
