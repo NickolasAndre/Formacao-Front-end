@@ -143,7 +143,7 @@ while(x >= 0){
     console.log(`Repetindo${x}`)
     x = x - 2;
 }
-*/
+
 
 // 11 - do while
 
@@ -154,3 +154,38 @@ do {
     o --;
 }while(o > 1);
 
+*/
+
+// 12 - for
+/*
+for(let a = 10 ; a > 0; a -- ){
+    console.log(`resultado de ${a}`)
+}
+
+for(let b = 0 ; b <= 10; b ++  ){
+    console.log(`resultado de ${b}`)
+}
+
+
+let r = 10;
+
+for(r; r > 0; r = r -2){
+    console.log(`resultado de ${r}`)
+}
+*/
+
+
+
+let t = 10;
+
+for(t; t > 0; t = t - 1){
+    console.log(`${t}`);
+}
+
+
+
+let q = 0;
+
+for(q; q <= 10; q = q + 1){
+    console.log(`${q}`);
+}
