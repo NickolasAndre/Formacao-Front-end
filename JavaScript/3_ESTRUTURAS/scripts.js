@@ -1,3 +1,4 @@
+/*
 // 1 - variáveis
 
 let nome = "Nickolas";
@@ -39,7 +40,7 @@ console.log(a, b, c);
 
 // 5 - math
 
-/*
+
 console.log(Math.max(4,1,5,10));
 
 console.log(Math.floor(6.12));
@@ -53,7 +54,7 @@ console.log("teste!");
 console.error("erro!");
 
 console.warn("aviso!");
-*/
+
 
 // 7 - if
 
@@ -123,3 +124,33 @@ if(userName === "José"){
 }else {
     console.log("Nenhuma condição foi aceita!");
 }
+*/
+
+// 10 - while
+/*
+let p = 0
+
+while(p < 5){
+    console.log(`Repetindo${p}`)
+   p = p + 1
+}
+
+
+
+let x = 10;
+
+while(x >= 0){
+    console.log(`Repetindo${x}`)
+    x = x - 2;
+}
+*/
+
+// 11 - do while
+
+let o = 10;
+
+do {
+    console.log(`Valor de o: ${o}`);
+    o --;
+}while(o > 1);
+
