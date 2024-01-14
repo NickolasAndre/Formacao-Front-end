@@ -175,13 +175,11 @@ for(r; r > 0; r = r -2){
 */
 
 
-
 let t = 10;
 
 for(t; t > 0; t = t - 1){
     console.log(`${t}`);
 }
-
 
 
 let q = 0;
@@ -201,3 +199,24 @@ for(let u = 0; u < 10; u ++){
      }
     }
 }
+
+// 14 - break
+
+for(let g = 20; g >= 10; g --){
+    console.log(`O valor ${g}`);
+
+    if(g === 15){
+        console.log("O g é 15!")
+        break;
+    }
+}
+
+for(yy = 25; yy > 0; yy = yy - 2){
+    console.log(`o valor é ${yy}`);
+
+    if(yy === 5){
+        console.log("O valor é 5");
+        break;
+    }
+}
+
