@@ -239,3 +239,37 @@ for(tt = 10; tt < 20; tt = tt + 1){
     }
     console.log(tt);
 }
+
+// 16 - switch
+
+const job = "Ti";
+
+switch(job){
+    case "Programador":
+        console.log("Você é um programador");
+        break
+    case "Ti":
+        console.log("Você é um ti");
+        break
+    case "Engenheiro":
+        console.log("Você é um engenheiro");
+        break
+    default:
+        console.log("Profissão não encontrada");
+}
+
+const ll = 100;
+
+switch(ll){
+    case 213:
+        console.log("213");
+        break
+    case 100:
+        console.log("100");
+        break
+    case 833:
+        console.log("833");
+        break
+    default:
+        console.log("erro!");
+}
