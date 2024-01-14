@@ -220,3 +220,22 @@ for(yy = 25; yy > 0; yy = yy - 2){
     }
 }
 
+// 15 - continue
+
+for(s = 1; s < 10; s = s + 1){
+    // operador de resto = %
+    if(s % 2 === 0){
+        console.log("Número par!");
+        continue;
+    }
+    console.log(s);
+}
+
+
+for(tt = 10; tt < 20; tt = tt + 1){
+    if(tt % 2 === 0){
+        console.log('par');
+        continue;
+    }
+    console.log(tt);
+}
