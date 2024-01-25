@@ -117,3 +117,47 @@ function escopoAninhado(){
 }
 escopoAninhado()
 console.log(m);
+
+
+// 5 - arrow function
+
+const testeArrow = () =>{
+    console.log("Esta é uma arrow function");
+}
+
+testeArrow();
+
+const adw = function www(){
+    console.log("teste")
+}
+
+adw();
+
+const parOuImpar = (n) => {
+    if(n % 2 === 0){
+        console.log("Par")
+        return
+    }
+    console.log("Impar")
+}
+
+parOuImpar(5);
+
+parOuImpar(4);
+
+// 6 - mais sobre arrow function
+
+const raizQ = (x) =>{
+    return x * x
+}
+
+console.log(raizQ(4));
+
+const raizQ2 = (qq) => qq * qq;
+
+console.log(raizQ2(2));
+console.log(raizQ2(12));
+
+const helloWorld = () => console.log("Hello World");
+
+helloWorld();
