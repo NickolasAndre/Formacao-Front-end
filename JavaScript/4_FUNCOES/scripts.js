@@ -161,3 +161,30 @@ console.log(raizQ2(12));
 const helloWorld = () => console.log("Hello World");
 
 helloWorld();
+
+// 7 - parametro opcional
+
+const multiplication = function(mm, nn){
+    if(nn === undefined){
+        return mm * 2
+    }else{
+        return mm * nn
+    }
+}
+
+console.log(multiplication(5))
+
+console.log(multiplication(2, 4))
+
+const greeting = (nome) => {
+    if(!nome){
+        console.log("Olá");
+        return
+    }else{
+
+    console.log(`Olá ${nome}`)
+    }
+}
+
+greeting();
+greeting("Nickolas")
