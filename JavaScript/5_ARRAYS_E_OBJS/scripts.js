@@ -30,4 +30,26 @@ console.log(number.pop)
 
 const myName = 'nico';
 
-console.log(myName.length)
+console.log(myName.length);
+
+// métodos
+
+
+const otherNumber = [1, 2, 3, 57];
+
+const allNumber = number.concat(otherNumber);
+
+console.log(allNumber);
+
+
+const text = "Algum texto";
+
+const text2 = " Complemento do texto";
+
+const textTudo = text.concat(text2);
+
+console.log(textTudo);
+
+console.log(text.toUpperCase());
+
+console.log(text.indexOf("u"))
