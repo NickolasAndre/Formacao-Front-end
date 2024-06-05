@@ -52,4 +52,20 @@ console.log(textTudo);
 
 console.log(text.toUpperCase());
 
-console.log(text.indexOf("u"))
+console.log(text.indexOf("u"));
+
+// objetos
+
+const person = {
+    name: "nico",
+    age: 25,
+    job: "programador"
+}
+
+console.log(person);
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.job);
+console.log(person.job.length);
+console.log(typeof person);
