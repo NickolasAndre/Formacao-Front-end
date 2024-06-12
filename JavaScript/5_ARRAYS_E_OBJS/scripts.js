@@ -103,3 +103,27 @@ const obj2 = {
 Object.assign(obj2, obj);
 
 console.log(obj2)
+
+// conhecendo melhor os objetos
+
+console.log(Object.keys(obj));
+console.log(Object.keys(obj2));
+
+console.log(Object.keys(car));
+
+console.log(Object.entries(car));
+
+// mutação
+
+const a = {
+    name: "nick"
+};
+
+const b = a;
+
+console.log(a);
+console.log(b);
+
+a.age = 25;
+
+console.log(b)
