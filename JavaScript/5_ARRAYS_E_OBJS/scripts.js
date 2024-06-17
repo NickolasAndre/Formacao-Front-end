@@ -126,4 +126,13 @@ console.log(b);
 
 a.age = 25;
 
-console.log(b)
+console.log(b);
+
+// loop em array
+
+const users = ["Nickolas", "Andre", "Paulo", "Pedro"];
+
+for(let i =  0; i < users.length ; i++ ){
+    console.log(i);
+    console.log(`Listando o usuário ${users[i]}`);
+}
