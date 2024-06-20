@@ -154,3 +154,25 @@ console.log(array);
 array.push("z","x","y")
 
 console.log(array);
+
+
+// shift e unshift
+
+const itemadd = ["aa","bb","cc"]
+
+itemadd.unshift("aaa");
+console.log(itemadd);
+
+itemadd.shift();
+console.log(itemadd);
+
+const latters = ["a","b","c"]
+
+const latter = latters.shift();
+console.log(latter);
+console.log(latters);
+
+latters.unshift("P","Q","Z");
+latters.unshift("Z");
+console.log(latters);
+
