@@ -176,3 +176,14 @@ latters.unshift("P","Q","Z");
 latters.unshift("Z");
 console.log(latters);
 
+// indexOf e lastIndexOf
+
+const myElement = ["Morango","Uva","Laranja","Abacate", "Pêra", "Abacate"];
+
+console.log(myElement.indexOf("Laranja"));
+console.log(myElement[2]);
+
+console.log(myElement[myElement.indexOf("Laranja")]);
+
+console.log(myElement.lastIndexOf("Abacate"))
+
