@@ -241,3 +241,11 @@ if(brands.includes("FIAT")){
 } else{
     console.log("Não tem carros da FIAT!")
 }
+
+// reverse
+
+const reverseteste = [1, 2, 3, 4, 5];
+
+reverseteste.reverse();
+
+console.log(reverseteste);
