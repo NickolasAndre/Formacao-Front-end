@@ -249,3 +249,15 @@ const reverseteste = [1, 2, 3, 4, 5];
 reverseteste.reverse();
 
 console.log(reverseteste);
+
+
+// trim
+
+const trimTest = "   testando \n   ";
+
+console.log(trimTest);
+console.log(trimTest.trim());
+
+console.log(trimTest.length);
+
+console.log(trimTest.trim().length);
