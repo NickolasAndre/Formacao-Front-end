@@ -229,3 +229,15 @@ const posts = [
 posts.forEach((post) =>{
     console.log(`Exibindo post: ${post.title}, da categoria: ${post.category}`)
 })
+
+// includes
+
+const brands = ["BMW", "VW", "FIAT"];
+
+console.log(brands.includes("FIAT"));
+
+if(brands.includes("FIAT")){
+    console.log("tem carros da FIAT!")
+} else{
+    console.log("Não tem carros da FIAT!")
+}
