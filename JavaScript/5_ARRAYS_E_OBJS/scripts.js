@@ -290,3 +290,19 @@ const testePadEnd2 = newNumber.padEnd(5, "0");
 console.log(testePadEnd2);
 
 console.log(testePadEnd2)
+
+// split
+
+const frase = "O rato roeu a roupa do rei de Roma";
+
+const arrayDaFrase = frase.split(" ");
+
+console.log(frase)
+
+console.log(arrayDaFrase);
+
+const frase2 = "Um carro dois carro três carro";
+
+const arrayDaFrase2 = frase2.split(" ");
+
+console.log(arrayDaFrase2);
