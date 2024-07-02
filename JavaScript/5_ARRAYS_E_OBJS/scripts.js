@@ -306,3 +306,23 @@ const frase2 = "Um carro dois carro três carro";
 const arrayDaFrase2 = frase2.split(" ");
 
 console.log(arrayDaFrase2);
+
+// join
+
+const fraseDeNovo = arrayDaFrase.join(" ");
+
+console.log(fraseDeNovo);
+
+//-------------
+
+const itensParaComprar = ["Mouse", "Teclado", "Monitor"];
+
+const itensComprados = itensParaComprar.join(" ");
+
+console.log(itensParaComprar);
+
+console.log(itensComprados);
+
+const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(", ")}.`;
+
+console.log(fraseDeCompra);
