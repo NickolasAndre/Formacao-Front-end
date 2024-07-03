@@ -384,4 +384,10 @@ const myList = ["Avião","Submarino","Carro"];
 
 const [veiculoA, veiculoB, veiculoC] = myList;
 
-console.log(veiculoA, veiculoB, veiculoC)
+console.log(veiculoA, veiculoB, veiculoC);
+
+// JSON
+
+const myjson = '{"nome: " "Nickolas", "age": 25, "skills": ["PHP", "JavaScript", "Python"]}';
+
+console.log(myjson)
