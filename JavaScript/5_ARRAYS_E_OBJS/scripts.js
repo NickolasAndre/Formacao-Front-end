@@ -357,4 +357,23 @@ const somaInfinita2 = (...args) =>{
     return total;
 };
 
-console.log(somaInfinita2(1,2,3,4,5))
+console.log(somaInfinita2(1,2,3,4,5));
+
+// destructuring em objetos
+
+const userDetails ={
+    firstName: "Nickolas",
+    lastName: "Andre",
+    Job: "Programador",
+    age: 25
+};
+
+const {firstName, lastName, Job, age} = userDetails;
+
+console.log(firstName, lastName, Job, age);
+
+// renomear variaveis
+
+const {firstName: primeiroNome} = userDetails;
+
+console.log(firstName)
