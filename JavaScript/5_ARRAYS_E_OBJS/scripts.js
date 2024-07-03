@@ -388,6 +388,26 @@ console.log(veiculoA, veiculoB, veiculoC);
 
 // JSON
 
-const myjson = '{"nome: " "Nickolas", "age": 25, "skills": ["PHP", "JavaScript", "Python"]}';
+const myjson = '{"nome": "Nickolas", "age": 25, "skills": ["PHP", "JavaScript", "Python"]}';
 
-console.log(myjson)
+console.log(myjson);
+
+// JSON para objeto e objeto para JSON
+
+const myObject = JSON.parse(myjson);
+
+console.log(myObject);
+
+console.log(myObject.nome);
+
+console.log(typeof myObject);
+
+myObject.isOpenToWork = true;
+
+console.log(myObject);
+
+const myNewJson = JSON.stringify(myObject);
+
+console.log(myNewJson);
+
+console.log( typeof myNewJson);
