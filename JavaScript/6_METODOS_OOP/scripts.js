@@ -37,3 +37,17 @@ console.log(pessoa.getNome());
 pessoa.setNome("Andre");
 
 console.log(pessoa.getNome())
+
+// 3 - prototype
+
+const texto = "asd";
+
+console.log(Object.getPrototypeOf(texto));
+
+const bool = true;
+
+console.log(Object.getPrototypeOf(bool));
+
+const ar = [];
+
+console.log(Object.getPrototypeOf(ar));
