@@ -1,3 +1,4 @@
+/*
 // 1 - Métodos
 
 const animal = {
@@ -100,3 +101,31 @@ pit.raca = "pit";
 console.log(pit);
 
 console.log(pit.patas);
+
+*/
+
+// função como classe - função construtora
+
+function criarCachorro(nome, raca) {
+
+
+    const cachorro = Object.create({})
+
+    cachorro.nome = nome;
+    cachorro.raca = raca;
+
+    return cachorro
+
+}
+
+const bob = criarCachorro("bob", "vira lata");
+
+console.log(bob);
+
+const dog = criarCachorro("mel", "bulldog");
+
+console.log(dog);
+
+const paco = criarCachorro("bola", "pit");
+
+console.log(paco);
