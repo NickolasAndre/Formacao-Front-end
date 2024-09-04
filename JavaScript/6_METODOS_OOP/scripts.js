@@ -102,7 +102,7 @@ console.log(pit);
 
 console.log(pit.patas);
 
-*/
+
 
 // função como classe - função construtora
 
@@ -129,3 +129,23 @@ console.log(dog);
 const paco = criarCachorro("bola", "pit");
 
 console.log(paco);
+
+*/
+// funcoes como classe
+
+function Cachorro(nome, raca){
+    this.nome = nome;
+    this.raca = raca;
+}
+
+const husky = new Cachorro("neve", "husky");
+
+console.log(husky);
+
+const viraLata = new Cachorro("ovo", "vira-lata");
+
+console.log(viraLata);
+
+const bulldog = new Cachorro("bob", "bulldog");
+
+console.log(bulldog);
