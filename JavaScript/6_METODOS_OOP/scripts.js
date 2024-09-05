@@ -149,3 +149,12 @@ console.log(viraLata);
 const bulldog = new Cachorro("bob", "bulldog");
 
 console.log(bulldog);
+
+// 8 - metodos na funcao construtora
+
+Cachorro.prototype.uivar = function(){
+    console.log("Auuu!");
+
+}
+
+husky.uivar();
