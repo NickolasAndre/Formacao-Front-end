@@ -175,3 +175,37 @@ console.log(jeff);
 const tibia = new CachorroClasse("tibia", "dog");
 
 console.log(tibia)
+
+// mais sobre classes
+
+class caminhao{
+    constructor(eixos, cor){
+        this.eixos = eixos;
+        this.cor = cor;
+    }
+
+    descreverCaminhao(){
+        console.log(`Este caminhão tem ${this.eixos} eixos e é da cor ${this.cor}`)
+    }
+}
+
+const scania = new caminhao(6, "vermelho");
+
+console.log(scania);
+
+scania.descreverCaminhao();
+
+caminhao.motor = 4;
+
+const c2 = new caminhao(4, "preta");
+
+console.log(c2);
+
+console.log(c2.motor);
+
+caminhao.prototype.motor = 4.0;
+
+const c3 = new  caminhao(6, "azul")
+
+console.log(c3)
+
