@@ -254,3 +254,32 @@ console.log(boing);
 console.log(boing[asas]);
 
 console.log(boing[pilotos]);
+
+// 13 - getter e setter
+
+class post{
+    constructor(titulo, descricao, tags){
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.tags = tags;
+    }
+
+    get exibirTitulo(){
+        return `Você está lendo: ${this.titulo}`
+    }
+
+    set adicionarTags(tags){
+        const tagsArray = tags.split(", ");
+        this.tags = tagsArray;
+    }
+}
+
+const myPsot = new post("Algum post", "É um post sobre programação");
+
+console.log(myPsot);
+
+console.log(myPsot.exibirTitulo);
+
+myPsot.adicionarTags = "programação, javascript, js";
+
+console.log(myPsot)
