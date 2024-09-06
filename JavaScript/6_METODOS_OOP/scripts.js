@@ -209,3 +209,21 @@ const c3 = new  caminhao(6, "azul")
 
 console.log(c3)
 
+// 11 - override
+
+class humano{
+    constructor(nome, idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+const nickolas = new humano("nickolas", 25);
+
+console.log(nickolas);
+
+humano.prototype.idade = "Não definida";
+
+console.log(nickolas.idade);
+
+console.log(humano.prototype.idade);
