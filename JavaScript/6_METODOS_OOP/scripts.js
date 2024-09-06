@@ -283,3 +283,22 @@ console.log(myPsot.exibirTitulo);
 myPsot.adicionarTags = "programação, javascript, js";
 
 console.log(myPsot)
+
+// 14 - Herança
+
+class mamifero{
+    constructor(patas){
+        this.patas = patas;
+    }
+}
+
+class lobo extends mamifero {
+    constructor(patas, nome){
+        super(patas, patas);
+        this.nome = nome;
+    }
+}
+
+const shark = new lobo(4, "shark");
+
+console.log(shark)
