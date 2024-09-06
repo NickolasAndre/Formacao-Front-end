@@ -130,7 +130,7 @@ const paco = criarCachorro("bola", "pit");
 
 console.log(paco);
 
-*/
+
 // funcoes como classe
 
 function Cachorro(nome, raca){
@@ -227,3 +227,30 @@ humano.prototype.idade = "Não definida";
 console.log(nickolas.idade);
 
 console.log(humano.prototype.idade);
+
+*/
+
+// 12 - symbols
+
+class Aviao{
+    constructor(marca, turbina){
+        this.marca = marca;
+        this.turbina = turbina;
+    }
+}
+
+const asas = Symbol();
+
+const pilotos = Symbol();
+
+Aviao.prototype[asas] = 2;
+
+Aviao.prototype[pilotos] = 3;
+
+const boing = new Aviao("boing", 2);
+
+console.log(boing);
+
+console.log(boing[asas]);
+
+console.log(boing[pilotos]);
