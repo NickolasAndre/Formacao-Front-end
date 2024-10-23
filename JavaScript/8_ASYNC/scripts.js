@@ -51,7 +51,7 @@ Promise.resolve(4 * "asd")
 .catch((err) => console.log(`Um erro ocorreu: ${err}`))
 */
 // 5 - rejeição
-
+/*
 function checkNumber(n){
     return new Promise((resolve, reject) => {
         if(n > 10){
@@ -66,3 +66,24 @@ const a = checkNumber(20);
 const b = checkNumber(10);
 
 a.then((v) => console.log(`O resultado é ${v}`)).catch((err) => console.log(`um erro acorreu: ${err}`))
+*/
+
+// 6 - resolvendo várias promises
+
+const p1 = new Promise((resolve, reject) =>{
+    setTimeout(function(){
+        resolve(10)
+    }, 3000)
+})
+
+const p2 = Promise.resolve(10 + 10)
+
+const p3 = new Promise((resolve, reject) =>{
+    if(30 > 10){
+        resolve(30)
+    }else{
+        reject("erro!")
+    }
+})
+
+Promise.all([p1, p2, p3]).then((values) => console.log(values));
