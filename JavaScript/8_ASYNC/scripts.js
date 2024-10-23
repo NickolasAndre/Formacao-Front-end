@@ -1,3 +1,4 @@
+/*
 // 1 - setTimeout
 
 console.log("Ainda não executou");
@@ -18,7 +19,7 @@ setInterval(function(){
     console.log("Intervalo assícrono")
 }, 3000)
 
-*/
+
 
 console.log("Ainda não começou 2");
 
@@ -48,3 +49,20 @@ Promise.resolve(4 * "asd")
 })
 
 .catch((err) => console.log(`Um erro ocorreu: ${err}`))
+*/
+// 5 - rejeição
+
+function checkNumber(n){
+    return new Promise((resolve, reject) => {
+        if(n > 10){
+            resolve(`O número é maior que 10`)
+        }else{
+            reject( new Error("Número muito baixo"))
+        }
+    })
+}
+
+const a = checkNumber(20);
+const b = checkNumber(10);
+
+a.then((v) => console.log(`O resultado é ${v}`)).catch((err) => console.log(`um erro acorreu: ${err}`))
