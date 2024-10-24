@@ -60,4 +60,18 @@ const navUl = document.querySelector("nav");
 
 const ul = document.createElement("ul");
 
-navUl.appendChild(ul)
+navUl.appendChild(ul);
+
+// 8 - replaceChild
+
+const h2 = document.createElement("h2");
+
+h2.textContent = "Meu novo Título!"
+
+header.replaceChild(h2, title)
+
+const navA = document.createElement("li");
+
+navA.textContent = "oi";
+
+navUl.replaceChild(navA, ul)
