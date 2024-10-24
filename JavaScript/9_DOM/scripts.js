@@ -48,3 +48,16 @@ console.log(header);
 
 header.insertBefore(p, title)
 
+// 7 - appendchild
+
+const navLinks = document.querySelector("nav ul");
+
+const li = document.createElement("li");
+
+navLinks.appendChild(li);
+
+const navUl = document.querySelector("nav");
+
+const ul = document.createElement("ul");
+
+navUl.appendChild(ul)
