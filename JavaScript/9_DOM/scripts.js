@@ -149,4 +149,12 @@ console.log(footer1.clientHeight);
 
 const product1 = products[0];
 
-console.log(product1.getBoundingClientRect())
+console.log(product1.getBoundingClientRect());
+
+// CSS com JS
+
+mainContainer.style.color = "red";
+
+mainContainer.style.backgroundColor = "blue";
+
+mainContainer.paddingBottom = "15px"
