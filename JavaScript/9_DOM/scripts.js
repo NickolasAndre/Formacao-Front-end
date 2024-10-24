@@ -74,4 +74,46 @@ const navA = document.createElement("li");
 
 navA.textContent = "oi";
 
-navUl.replaceChild(navA, ul)
+navUl.replaceChild(navA, ul);
+
+// 9 - createTextNode
+
+const myText = document.createTextNode("Agora vamos colocar mais um título")
+
+console.log(myText);
+
+const h3 = document.createElement("h3");
+
+h3.appendChild(myText);
+
+console.log(h3);
+
+mainContainer.appendChild(h3);
+
+//----------------------------
+
+const myText2 = document.createTextNode("Agora mais um texto!")
+
+const h4 = document.createElement("h4");
+
+h4.appendChild(myText2);
+
+console.log(h4)
+
+navLinks.appendChild(h4)
+
+//----------------
+
+const footer = document.getElementsByTagName("footer")[0]
+
+console.log(footer)
+
+const ah4 = document.createElement("h4")
+
+const myTextFooter = document.createTextNode("texto no footer");
+
+ah4.appendChild(myTextFooter)
+
+console.log(ah4)
+
+footer.appendChild(ah4)
