@@ -35,3 +35,16 @@ console.log(productsQuery)
 const mainContainer = document.querySelector("#main-container")
 
 console.log(mainContainer)
+
+// 6 - insertBefore
+
+const p = document.createElement("p")
+
+console.log(p);
+
+const header = title.parentElement
+
+console.log(header);
+
+header.insertBefore(p, title)
+
