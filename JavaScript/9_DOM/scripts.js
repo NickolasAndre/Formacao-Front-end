@@ -16,6 +16,12 @@ console.log(listItens);
 
 // 3 - selecionando por id
 
-const title = document.getElementById('title')
+const title = document.getElementById('title');
 
-console.log(title)
+console.log(title);
+
+// 4 - selecionando por classe
+
+const products = document.getElementsByClassName("product");
+
+console.log(products);
