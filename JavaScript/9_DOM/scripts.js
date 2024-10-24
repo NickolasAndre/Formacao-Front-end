@@ -98,22 +98,36 @@ const h4 = document.createElement("h4");
 
 h4.appendChild(myText2);
 
-console.log(h4)
+console.log(h4);
 
-navLinks.appendChild(h4)
+navLinks.appendChild(h4);
 
 //----------------
 
 const footer = document.getElementsByTagName("footer")[0]
 
-console.log(footer)
+console.log(footer);
 
-const ah4 = document.createElement("h4")
+const ah4 = document.createElement("h4");
 
 const myTextFooter = document.createTextNode("texto no footer");
 
-ah4.appendChild(myTextFooter)
+ah4.appendChild(myTextFooter);
 
-console.log(ah4)
+console.log(ah4);
 
-footer.appendChild(ah4)
+footer.appendChild(ah4);
+
+
+// 10 - trabalhando com atributos
+
+//const navLinks = document.querySelector("nav ul");
+const primeiroLink = navLinks.querySelector("a");
+
+console.log(primeiroLink)
+
+primeiroLink.setAttribute("href", "https://www.google.com");
+
+console.log(primeiroLink.getAttribute("href"));
+
+primeiroLink.setAttribute("target", "_blank")
