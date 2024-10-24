@@ -140,5 +140,13 @@ console.log(footer1.offsetWidth);
 console.log(footer1.offsetHeight);
 
 
-console.log(footer1.clientWidth)
-console.log(footer1.clientHeight)
+console.log(footer1.clientWidth);
+console.log(footer1.clientHeight);
+
+// 12 - posição do elemento
+
+//const products = document.getElementsByClassName("product");
+
+const product1 = products[0];
+
+console.log(product1.getBoundingClientRect())
