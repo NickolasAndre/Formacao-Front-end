@@ -158,3 +158,9 @@ mainContainer.style.color = "red";
 mainContainer.style.backgroundColor = "blue";
 
 mainContainer.paddingBottom = "15px"
+
+// 14 - alterando estilos de vários elementos
+
+for(const li of listItens){
+    li.style.backgroundColor = "red"
+}
