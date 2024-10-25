@@ -100,8 +100,17 @@ mouseEnvents.addEventListener("dbclick", () =>{
 })
 
 // 8 - movimento do mouse
-
+/*
 document.addEventListener("mousemove", (e) =>{
     console.log(`No eixo X: ${e.x}`)
     console.log(`No eixo y: ${e.y}`)
+})
+*/
+
+// 9 - eventos por scroll
+
+window.addEventListener("scroll", (e) =>{
+    if(window.pageYOffset > 200){
+        console.log("Passamos de 200px")
+    }
 })
