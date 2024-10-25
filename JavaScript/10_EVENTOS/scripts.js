@@ -98,3 +98,10 @@ mouseEnvents.addEventListener("mouseup", () =>{
 mouseEnvents.addEventListener("dbclick", () =>{
     console.log("dbclick")
 })
+
+// 8 - movimento do mouse
+
+document.addEventListener("mousemove", (e) =>{
+    console.log(`No eixo X: ${e.x}`)
+    console.log(`No eixo y: ${e.y}`)
+})
