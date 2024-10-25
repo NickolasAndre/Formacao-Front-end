@@ -37,3 +37,13 @@ ate.addEventListener("click", () =>{
     console.log("removeu");
     att.removeEventListener("click", attimprimir)
 })
+
+// 3 - argumento do evento
+
+const myTitle = document.querySelector("#my-title");
+
+myTitle.addEventListener("click", (event) =>{
+    console.log(event)
+    console.log(event.target)
+    console.log(event.pointerType)
+})
