@@ -114,3 +114,15 @@ window.addEventListener("scroll", (e) =>{
         console.log("Passamos de 200px")
     }
 })
+
+// 10 - evento de focus/blur
+
+const input = document.querySelector("#my-input");
+
+input.addEventListener("focus", (e) =>{
+    console.log("Entrou no input")
+})
+
+input.addEventListener("blur", (e) =>{
+    console.log("Saiu do input")
+})
